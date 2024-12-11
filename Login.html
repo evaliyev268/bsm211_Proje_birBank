@@ -3,20 +3,23 @@
 <html>
 
 <head>
-<title>Login</title> 
+<title>Login | Birbank</title> 
 </head>
 
 <body>
-
+<fieldset id="loginpage">
 <header id="loginid"><h2>Login</h2></header><br>
 
-<form id="loginform">
+<form id="loginform"></form>
 <label id="loginkadi">Kullanici Adi</label><br>
-<input type="text"  id="loginkadi"><br>
+<input type="text"  id="loginkadi" autofocus><br>
 <label id="loginsifre">Sifre</label><br>
-<input type="text" id="loginsifre"><br>
-<button type="button" id="logingiris" >Giris</button><br>
+<input type="password" id="loginsifre" pattern="[0-9]{8}"><br>
+<button type="submit" id="logingiris" >Giris</button><br>
 <br>
+</fieldset>
+<p>Musterimiz degilmisiniz?</p> <br>
+<a href="CreateAccount.html" id="ubho">Bankaya gitmeden Birbank musterisi olmak icin dokun</a>
 </form>
 
 </body>
