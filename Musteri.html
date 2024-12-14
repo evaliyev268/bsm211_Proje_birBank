@@ -1,7 +1,79 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
           <title>Musteri | Birbank</title>
+<!---->
+          <script id="smhpy">
+            function sMhpy() {
+                window.open(
+                    "mhpy.html", 
+                    "Hesaba para yolla", 
+                    "width=300,height=400,resizable=no,scrollbars=yes"
+                );
+            }
+        </script>
+        <!---->
+              <script id="smbhk">
+                function sMbhk() {
+                    window.open(
+                        "mbhk.html", 
+                        "Hesabimi kapat", 
+                        "width=300,height=400,resizable=no,scrollbars=yes"
+                    );
+                }
+            </script>
+            <!---->
+             <script id="smybha">
+               function sMybha() {
+                   window.open(
+                       "mybha.html", 
+                       "Yeni banka hesabi ac", 
+                       "width=300,height=400,resizable=no,scrollbars=yes"
+                   );
+               }
+           </script>
+           <!---->
+           <script id="smtbd">
+            function sMtbd() {
+                window.open(
+                    "mtbd.html", 
+                    "TL - BTC donustur", 
+                    "width=300,height=400,resizable=no,scrollbars=yes"
+                );
+            }
+        </script>
+        <!---->
+        <script id="smbtd">
+            function sMbtd() {
+                window.open(
+                    "mbtd.html", 
+                    "BTC - TL donustur", 
+                    "width=300,height=400,resizable=no,scrollbars=yes"
+                );
+            }
+        </script>
+           <!---->
+           <script id="smcha">
+            function sMcha() {
+                window.open(
+                    "mcha.html", 
+                    "Cyrpto Hesabi Ac", 
+                    "width=300,height=400,resizable=no,scrollbars=yes"
+                );
+            }
+        </script>
+        <!---->
+        <script id="smchk">
+            function sMchk() {
+                window.open(
+                    "mchk.html", 
+                    "Cyrpto hesabini kapat", 
+                    "width=300,height=400,resizable=no,scrollbars=yes"
+                );
+            }
+        </script>
     </head>
     <body>
         <header><h2>Hosgeldiniz Sayin</h2></header><br><br>
@@ -10,17 +82,18 @@
 
 
              <h4>Islemler</h4> <br>
-             <button type="button" id="mhpy">Hesaba para yolla</button><br>
-             <button type="button" id="mbhk">Banka hesabimi kapat</button><br>
-             <button type="button" id="mybha">Yeni banka hesabi ac</button><br>
+             <button id="mhpy" onclick="sMhpy()">Hesaba para yolla</button>
+             <button type="button" id="mbhk" onclick="sMbhk()">Banka hesabimi kapat</button>
+             <button type="button" id="mybha" onclick="sMybha()">Yeni banka hesabi ac</button><br>
         </fieldset><br><br>
         <fieldset id="mdovizh">
-            <h3>Doviz Hesaplarim</h3><br>
+            <h3>Cyrpto Hesaplarim</h3><br>
 
             <h4>Islemler</h4> <br>
-            <button type="button" id="mhpy">Tl-Btc donustur</button><br> 
-            <button type="button" id="mbtd">Btc-Tl donustur</button><br>
-            <button type="button" id="mdhk">Doviz hesabini kapat</button><br>
+            <button type="button" id="mhpy" onclick="sMtbd()">Tl-Btc donustur</button>
+            <button type="button" id="mbtd" onclick="sMbtd()">Btc-Tl donustur</button>
+            <button type="button" id="mdhk">Cyrpto hesabini kapat</button>
+            <button type="button" id="mdha" onclick="sMcha()">Cyrpto hesabi ac</button><br>
 
 
        </fieldset><br><br>
@@ -30,7 +103,7 @@
 
 
              <h4>Islemler</h4> <br>
-             <button type="button" id="mko">Kredi ode</button><br>
+             <button type="button" id="mko">Kredi ode</button>
              <button type="button" id="mkby">Kredi basvurusu yap</button><br>
         </fieldset><br><br>
 
